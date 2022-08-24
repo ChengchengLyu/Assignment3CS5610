@@ -35,9 +35,7 @@ router.get('/:id', async function (req, res) {
   })
 });
 
-/**
- * Edit
- */
+
  router.put('/', async function (req, res) {
   const result = await service.update(req.body)
   res.send({
