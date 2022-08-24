@@ -1,0 +1,64 @@
+.index-page {
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  .index-page {
+    flex-wrap: wrap;
+  }
+}
+.index-page .left {
+  padding: 16px;
+  background: #fff;
+}
+.index-page .left .music-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.index-page .singer-list {
+  min-width: 200px;
+  width: 200px;
+  background: #fff;
+  margin: 0 0 0 16px;
+  padding: 16px;
+}
+@media screen and (max-width: 1024px) {
+  .index-page .singer-list {
+    display: flex;
+    width: 100%;
+    margin: 16px 0 0;
+  }
+  .index-page .singer-list p {
+    margin: 0 16px 0 0;
+  }
+}
+.index-page .singer-list p {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  cursor: pointer;
+  color: #0099ff;
+}
+.index-page .singer-list p img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px 0 0;
+}
+
+.music {
+  margin: 0 16px 16px 0;
+  cursor: pointer;
+}
+.music img {
+  width: 150px;
+  height: 150px;
+}
+.music .name {
+  font-size: 16px;
+}
+.music .singer {
+  color: #ccc;
+  font-size: 12px;
+}
+.music p {
+  margin: 8px 0 0;
+}

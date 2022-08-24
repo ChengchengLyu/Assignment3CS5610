@@ -1,0 +1,45 @@
+.singer-info {
+  padding: 16px;
+  background: #fff;
+}
+.singer-info .info {
+  display: flex;
+  align-items: center;
+}
+.singer-info .info img {
+  width: 150px;
+  height: 150px;
+  margin: 0 16px 0 0;
+}
+.singer-info .info h1 {
+  margin: 0 0 8px;
+}
+.singer-info .info .desc {
+  color: #ccc;
+}
+.singer-info .lyric {
+  margin: 16px 0 0;
+}
+.singer-info .lyric .music-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.music {
+  margin: 0 16px 16px 0;
+  cursor: pointer;
+}
+.music img {
+  width: 150px;
+  height: 150px;
+}
+.music .name {
+  font-size: 16px;
+}
+.music .singer {
+  color: #ccc;
+  font-size: 12px;
+}
+.music p {
+  margin: 8px 0 0;
+}

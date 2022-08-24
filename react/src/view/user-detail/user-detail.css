@@ -1,0 +1,9 @@
+.user-detail {
+  padding: 16px;
+  background: #fff;
+}
+
+.music-list {
+  display: flex;
+  flex-wrap: wrap;
+}
